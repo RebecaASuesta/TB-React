@@ -1,0 +1,27 @@
+@import '../../colors.scss';
+
+.list{
+    margin: 5%;
+    button{
+        color: $details-color;
+        border-radius: 5px;
+        border-style: none;
+        background-color: white;
+        &:hover{
+            -ms-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .list:nth-child(even) {
+            background-color: rgba(211, 211, 211, 0.445);
+            margin: auto 0;
+            padding: 2%;
+            button{
+                background-color: rgba(211, 211, 211, 0);
+            }
+    }
+}

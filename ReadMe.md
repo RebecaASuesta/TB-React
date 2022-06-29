@@ -1,0 +1,1 @@
+Falta el proyecto de la Tienda Online, el repositorio del BackEnd está [aquí](https://github.com/Molerog/BackendOnlineShop/tree/seeders) y el del FrontEnd [aquí](https://github.com/Molerog/FrontendOnlineShop).

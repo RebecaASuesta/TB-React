@@ -1,0 +1,21 @@
+@import '../../colors.scss';
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/Research-Team.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 260px);
+    h4{
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home{
+        height: calc(100vh - 165px);
+    }
+}

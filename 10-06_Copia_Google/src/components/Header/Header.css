@@ -1,0 +1,22 @@
+.Header{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em;
+}
+
+.Header a{
+    all: unset;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.loginButton{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
